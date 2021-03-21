@@ -5,4 +5,46 @@
 body
 {
 	background-color: #FFFFCC;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+/* Nav styles NAV_1 */
+
+nav {
+	background-color: #ead6dd;
+	padding: 5px;
+}
+
+nav ul {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 15px;
+	background-color:#F3E5EA;
+	border: 2px solid red;
+	border-radious: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 25;
+	margin-right: 25px;
+}
+
+nav ul a {
+	color: #000;
+	text-decoration: none;
+}
+
+/* HEADER STYLES HED_1 */
+
+header {
+	padding: 10px;
+}
+
+#siteName {
+	font:"alex-brush";
+	font-size: 50px;
 }
