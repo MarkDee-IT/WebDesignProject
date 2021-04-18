@@ -1,5 +1,7 @@
 /* CSS Document */
 
+/* The codes are just good practice for making it easy to search through large CSS documents and know what you're looking for */
+
 /* Body styles BD_1 */
 
 body
@@ -47,4 +49,40 @@ header {
 #siteName {
 	font:"alex-brush";
 	font-size: 50px;
+}
+
+/* Aside styles ASD_1 */
+
+aside {
+  	width: 30%;
+  	padding-left: 15px;
+  	margin-left: 15px;
+  	float: right;
+  	font-style: italic;
+	background-color:#F3E5EA;
+}
+
+/* section styles SEC_1 */
+
+section {
+	float: left;
+  	margin: 15px;
+  	width: 60%;
+	background-color:#F3E5EA;
+}
+
+/* FOOTER STYLES FOT_1 */
+
+footer {
+	background-color: #ead6dd;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+/* Form styles FOR_1 */
+
+.required:after {
+   	content:" *";
+    color: red;
 }
